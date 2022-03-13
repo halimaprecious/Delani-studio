@@ -46,10 +46,31 @@
 #manp{
     display: none;
 }
+/* portfolio */
+.port{
+    justify-content: space-evenly;
+}
+.port2{
+    justify-content: space-evenly;
+}
 /* contact section */
 .container5 {
     background-image: url("/Images/backgrounds/c_image.jpg");
     background-size: cover;
     background-position: center;
     height: 90vh;
+}
+/* social icons */
+.row7{
+    display: flex;
+justify-content: center;
+}
+li{
+list-style: none;
+display: inline-block;  
+padding: 8px 8px;
+} 
+/* footer */
+footer{
+    text-align: center;
 }
