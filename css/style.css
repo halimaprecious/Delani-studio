@@ -4,10 +4,52 @@
     font-family: 'Roboto', sans-serif;
 }
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+/* section one  */
 .container1 {
-    background-image: url("/assets/backgrounds/h_img.jpg");
+    background-image: url("/Images/backgrounds/h_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+.row2 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.logo{
+    margin-top: 110px;
+}
+.img1 {
+    margin-top: 200px;
+}
+/* services section */
+.container3 {
+    background-image: url("/Images/backgrounds/s_image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.services{
+    margin-top: 30px;
+}
+/* what we do */
+#pdesign{
+    display: none;
+}
+#devp{
+    display: none;
+}
+#manp{
+    display: none;
+}
+/* contact section */
+.container5 {
+    background-image: url("/Images/backgrounds/c_image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
 }
