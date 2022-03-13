@@ -8,7 +8,7 @@
 
 /* section one  */
 .container1 {
-    background-image: url("/Images/backgrounds/h_img.jpg");
+    background-image: url("../Images/backgrounds/h_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -34,7 +34,7 @@
 
 /* services section */
 .container3 {
-    background-image: url("/Images/backgrounds/s_image.jpg");
+    background-image: url("../Images/backgrounds/s_image.jpg");
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -68,7 +68,7 @@
 
 /* contact section */
 .container5 {
-    background-image: url("/Images/backgrounds/c_image.jpg");
+    background-image: url("../Images/backgrounds/c_image.jpg");
     background-size: cover;
     background-position: center;
     height: 200%;
