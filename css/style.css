@@ -53,12 +53,31 @@
 .port2{
     justify-content: space-evenly;
 }
+
 /* contact section */
 .container5 {
     background-image: url("/Images/backgrounds/c_image.jpg");
     background-size: cover;
     background-position: center;
     height: 90vh;
+}
+#mail{
+    background-color: transparent;
+    border:1px solid white;
+    width: 25%;
+}
+#names{
+    background-color: transparent;
+    border:1px solid white;
+    width: 25%;
+}
+#area{
+    background-color: transparent;
+    border:1px solid white;
+    
+}
+::-webkit-input-placeholder{
+    color: white;
 }
 /* social icons */
 .row7{
