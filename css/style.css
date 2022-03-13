@@ -1,9 +1,11 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 /* section one  */
 .container1 {
     background-image: url("/Images/backgrounds/h_img.jpg");
@@ -12,6 +14,7 @@
     background-position: center;
     height: 100vh;
 }
+
 .row2 {
     position: relative;
     justify-content: center;
@@ -20,12 +23,15 @@
     flex-direction: column;
     height: 100vh;
 }
-.logo{
+
+.logo {
     margin-top: 110px;
 }
+
 .img1 {
     margin-top: 200px;
 }
+
 /* services section */
 .container3 {
     background-image: url("/Images/backgrounds/s_image.jpg");
@@ -33,24 +39,30 @@
     background-position: center;
     height: 300px;
 }
-.services{
+
+.services {
     margin-top: 30px;
 }
+
 /* what we do */
-#pdesign{
+#pdesign {
     display: none;
 }
-#devp{
+
+#devp {
     display: none;
 }
-#manp{
+
+#manp {
     display: none;
 }
+
 /* portfolio */
-.port{
+.port {
     justify-content: space-evenly;
 }
-.port2{
+
+.port2 {
     justify-content: space-evenly;
 }
 
@@ -59,37 +71,45 @@
     background-image: url("/Images/backgrounds/c_image.jpg");
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 200%;
 }
-#mail{
+
+#mail {
     background-color: transparent;
-    border:1px solid white;
+    border: 1px solid white;
     width: 25%;
 }
-#names{
+
+#names {
     background-color: transparent;
-    border:1px solid white;
+    border: 1px solid white;
     width: 25%;
+    margin-right:2%;
 }
-#area{
+
+#area {
     background-color: transparent;
-    border:1px solid white;
-    
+    border: 1px solid white;
+
 }
-::-webkit-input-placeholder{
+
+::-webkit-input-placeholder {
     color: white;
 }
+
 /* social icons */
-.row7{
+.row7 {
     display: flex;
-justify-content: center;
+    justify-content: center;
 }
-li{
-list-style: none;
-display: inline-block;  
-padding: 8px 8px;
-} 
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 5px;
+}
+
 /* footer */
-footer{
+footer {
     text-align: center;
 }
