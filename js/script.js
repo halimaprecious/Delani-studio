@@ -13,3 +13,13 @@ $(document).ready(function () {
         $("#manp").toggle();
     });
 });
+// form
+document.querySelector("#formData").onsubmit=()=>{
+    const name=document.querySelector("#names").value;
+
+    if (name==""){
+        alert('Please enter your name');
+    }else{
+        alert(`Hello,${name}.\n We have received your message.Thank you for contacting us`)
+    }
+};
