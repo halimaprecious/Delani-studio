@@ -52,12 +52,14 @@ $(document).ready(function () {
         
 });
 // form
-document.querySelector("#formData").onsubmit=()=>{
+document.querySelector("#formData").onsubmit=(e)=>{
     const name=document.querySelector("#names").value;
 
+e.preventDefault()
     if (name==""){
         alert('Please enter your name');
     }else{
         alert(`Hello,${name}.\n We have received your message.Thank you for contacting us`)
     }
+
 };
