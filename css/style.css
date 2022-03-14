@@ -58,12 +58,53 @@
 }
 
 /* portfolio */
-.port {
-    justify-content: space-evenly;
+.container2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ 
 }
-
-.port2 {
-    justify-content: space-evenly;
+.portfolio1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+#lay1,#lay2,#lay3,#lay4{
+    position: absolute; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin-left: 80px;
+    margin-top: 80px;
+    font-size: 30px;
+    background-color: white;
+    display: none;
+}
+.portfolio2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+#over1,#over2,#over3,#over4{
+    position: absolute; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    margin-left: 80px;
+    margin-top: 80px;
+    font-size: 30px;
+    background-color: white;
+    display: none;
 }
 
 /* contact section */
