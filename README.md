@@ -31,7 +31,7 @@ If you need to use the project as your own:
 //code . (to open the project in vs code or manually get into the folder)
 
 ## LIve link
-[live link](https://halimaprecious.github.io/Akhan-Names/)
+[live link](https://halimaprecious.github.io/Delani-studio/)
 
 ## Contact
 GitHub- [Precious Halima](https://github.com/halimaprecious) 
